@@ -1,0 +1,1 @@
+CREATE INDEX idx_alumno_apellidos ON alumno (apellidos); 

@@ -1,0 +1,1 @@
+ALTER TABLE curso ADD COLUMN codigo_aula VARCHAR(4); 

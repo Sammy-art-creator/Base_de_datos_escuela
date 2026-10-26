@@ -1,0 +1,1 @@
+CREATE INDEX idx_pago_matricula   ON pago (id_alumno, id_curso); 

@@ -1,0 +1,1 @@
+REVOKE ALL ON v_recepcion_alumnos, v_profesor_notas FROM anon, authenticated; 
