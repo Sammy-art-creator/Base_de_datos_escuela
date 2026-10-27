@@ -1,15 +1,30 @@
-🏫 Base_de_datos_escuela
+# 🏫 Base de Datos Escuela
 
-Base de datos de una academia creada paso a paso en seis prácticas (P1 a P6).
+Repositorio con **ejercicios de práctica de bases de datos en SQL**, basados en la gestión de una escuela 🗄️✨
 
-📚 Contenido
-P1: tablas profesor y alumno con datos de prueba
-P2: tabla curso
-P3: tabla matricula
-P4: aulas y claves ajenas (prueba SET NULL)
-P5: horarios, pagos e índices (prueba CASCADE)
-P6: vistas, roles, permisos y usuarios
+## 📂 Contenido
 
-▶️ Uso
+- 👩‍🏫 **P1 · Profesores y alumnos** → Creación de las tablas `profesor` y `alumno` con datos de prueba
+- 📚 **P2 · Cursos** → Tabla `curso` y sus datos de prueba
+- 📝 **P3 · Matrículas** → Tabla `matricula` y sus datos de prueba
+- 🚪 **P4 · Aulas** → Tabla `aula`, columnas nuevas, clave ajena y prueba de `SET NULL`
+- 🕒 **P5 · Horarios y pagos** → Tablas `horario` y `pago`, índices y prueba de `CASCADE`
+- 🔐 **P6 · Vistas y permisos** → Vistas, roles, usuarios, permisos y pruebas de acceso
 
-Ejecuta los scripts .sql en orden (P1 · 1, P1 · 2, P1 · 3, P2 · 1...) sobre MySQL/MariaDB, por ejemplo con SQLTools en VS Code. 🛠️
+## 🎯 Objetivo
+
+Practicar y reforzar los conceptos de bases de datos: creación de tablas, claves ajenas, índices, vistas, roles y control de permisos 🚀
+
+## ▶️ Cómo usar los ejercicios
+
+1. 📥 Clona el repositorio:
+   ```bash
+   git clone https://github.com/Sammy-art-creator/NOMBRE-DEL-REPOSITORIO.git
+   ```
+2. 🛢️ Abre tu gestor de base de datos (MySQL Workbench, DBeaver, phpMyAdmin...)
+3. ⚡ Ejecuta los archivos `.sql` **en orden** (P1 → P6), ya que unas tablas dependen de otras
+
+## 🛠️ Tecnologías
+
+- 🗄️ SQL
+- 🧰 Git y GitHub
